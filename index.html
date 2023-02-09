@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-tofit=no,maximum-scale-1.0" />
+   <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+<body>
+<div class="container">
+    <h2> Create a New User </h2>
+    <form method="get" action="#null" autocomplete="on" >
+        <ol>
+		<li class="textInput">
+                <label for="name">Name:</label>
+                <input type="text" name="na" placeholder="Input your Name" id="name" required = "required" pattern = "[A-Z,a-z]{3,}" title = "Use Only Alphabets" />
+            </li>                      
+            <li class="textInput">
+                <label for="emailAdress">Email:</label>
+                <input type="emailAdress" name="EmailAddress" placeholder="Input your Email" id="EmailAddress" required = "required" pattern = "([A-Z,a-z0-9]{3,})@([a-z]{4,20}).com" title = "Use aaa@gmail.com" />
+            </li>
+            <li class="textInput">
+                <label for="ContactNumber">Contact Number:</label>
+                <input type="number" name="ContactNumber" placeholder="Input your Contact Number" id="ContactNumber" required = "required" pattern = "[0-9]{3,}" title = "Enter Your Number"/>
+            </li>
+            <li class="dob">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" />
+            </li>
+            <li class="button">
+                <button aria-label="Submit">Submit</button>
+            </li>
+        </ol>
+    </form>
+</div>
+</body>
+</html>
