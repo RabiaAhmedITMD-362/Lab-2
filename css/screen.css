@@ -70,6 +70,3 @@ form ol li button{
     width: max-content;
 }
 
-input::-webkit-input-placeholder {
-    color: black;
-}
