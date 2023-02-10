@@ -19,7 +19,7 @@ form{
     padding: 0.8em;
 }
 
-form ol {
+form ol{
     display: flex;
     flex-direction: column;
 }
